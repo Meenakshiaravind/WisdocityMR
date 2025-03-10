@@ -1,8 +1,4 @@
 package com.wisdocity.automation;
-
-
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -66,8 +62,8 @@ public class LoginTest{
     SwitchToExpert.click();
     
     //For Switching to Admin Profile
-    WebElement SwitchToAdmin = driver.findElement(By.xpath("//span[contains(text(),'Switch to Super Admin')]"));
-    SwitchToAdmin.click();
+    /*WebElement SwitchToAdmin = driver.findElement(By.xpath("//span[contains(text(),'Switch to Super Admin')]"));
+    SwitchToAdmin.click();*/
 	 
     	}catch (Exception e) {
             e.printStackTrace();  // Handle any exceptions
